@@ -4,5 +4,7 @@
 
 {% block body %}
 
-    {{ form(post_form) }}
+    {{ form_start(post_form) }}
+        {{ form (post_form) }}
+    {{ form_end(post_form) }}
 {% endblock %}
